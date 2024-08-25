@@ -1,0 +1,82 @@
+#wrapper{
+    grid-template-areas: "header header header"
+                         "navgrid navgrid navgrid"
+                         "productgrid productgrid productgrid"
+                         "footer footer footer";
+}
+div{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+   
+}
+#header{
+    grid-area: header;
+    background-color: grey;
+    text-align: center;
+}
+#navgrid{
+    grid-area: navgrid;
+    display: grid;
+    grid-template-areas: "home store gallery";
+    background-color: darkblue;
+}
+#home{
+    grid-area: home;
+    background-color: skyblue;
+    margin:10px;
+    border:5px solid;
+
+}
+#store{
+    grid-area: store;
+     background-color: skyblue;
+    margin:10px;
+    border:5px solid;
+}
+#gallery{
+    grid-area: gallery;
+     background-color: skyblue;
+    margin:10px;
+    border:5px solid;
+}
+#contact{
+    grid-area: contact;
+    background-color:skyblue;
+    margin:10px;
+    border:5px solid;
+}ggggntm
+#images{
+    grid-area: images;
+     background-color:goldenrod;
+}
+#productgrid{
+    grid-area: productgrid;
+    display: grid;
+    grid-template-areas:"product1 product1 product1"
+                         "product4 product4 product4";
+    background-color: forestgreen;
+}
+#product1{
+    grid-area: product1;
+    background-color:forestgreen;
+    padding:70px;
+    margin: 180px;
+    border: 0px;
+    width: 700px;
+
+    
+}
+#product4{
+    grid-area: product4;
+    background-color:forestgreen;
+    padding:70px;
+    margin: 180px;
+    border: 0px;
+    width: 700px;
+
+}
+#footer{
+    grid-area: footer;
+    background-color: darkred;
+}
